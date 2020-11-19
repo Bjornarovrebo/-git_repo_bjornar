@@ -1,0 +1,18 @@
+<svg id="Component_15_1" data-name="Component 15 – 1" xmlns="http://www.w3.org/2000/svg" width="71" height="36" viewBox="0 0 71 36">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        font-size: 12px;
+        font-family: NiveauGroteskBlack, Niveau Grotesk;
+      }
+    </style>
+  </defs>
+  <g id="chevron-up" transform="translate(17)">
+    <path id="chevron-up-2" data-name="chevron-up" class="cls-1" d="M2,112.392a1.927,1.927,0,0,0,2.538.134L17.073,102.47,29.61,112.526a1.927,1.927,0,0,0,2.538-.134l1.692-1.609a1.463,1.463,0,0,0-.154-2.279L18.15,96.1A1.823,1.823,0,0,0,16,96.1L.459,108.5a1.463,1.463,0,0,0-.154,2.279Z" transform="translate(0.169 -95.75)"/>
+  </g>
+  <text id="BACK_TO_TOP" data-name="BACK TO TOP" class="cls-2" transform="translate(0 33)"><tspan x="0" y="0">BACK TO TOP</tspan></text>
+</svg>
