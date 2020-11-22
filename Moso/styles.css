@@ -61,6 +61,7 @@ a:active {
 			font-family:niveau-grotesk, sans-serif;
 			}
 		.logo_moso {
+			display: flex;
 			max-width: 30vw;
 			min-width: 10vw;
 			position: absolute;
@@ -88,6 +89,7 @@ a:active {
 			padding-right: 10px;
 			color: black;
 	}
+		/*index.html*/
 		.section1_index {
 			background-color: transparent;
 			display: flex;
@@ -109,13 +111,14 @@ a:active {
 			line-height: 0.75em;
 			display: flex;
 			max-width: 100vw;
-			padding-right:10px;
-			padding-left:50px;
+			padding-right:20px;
+			padding-left:15px;
 			padding-top: 10px;
 			padding-bottom: 10px;
-			margin-right: 10px;
+			margin-right: 11px;
+			margin-left: 50px;
 			color:black;
-			background-color: rgba(255,255,255,0.8);
+			background-color: rgba(255,255,255,0.9);
 	}
 		.section2_index {
 			background-color: rgba(90, 186, 237,1);
@@ -136,14 +139,15 @@ a:active {
 	 		font-size: 1.2em;
 	 		line-height: 0.9em;
 	 		font-style: normal;
-	 		color:rgba(0,0,0,1);
+	 		color:white;
 	 		max-width: 100vw;
 	 		margin-top: 0;
 	 	}
 	 	.section2_index p {
-	 		font-size: 0.7em;
+	 		font-size: 0.8em;
 	 		padding-top: 2px;
-	 		color: black;
+	 		color: white;
+	 		line-height: 1em;
 	 	}
 	 	.section3_index {
 	 		display: flex;
@@ -169,17 +173,19 @@ a:active {
 	 	}
 	 	.section4_index {
 	 		display: flex;
-	 		max-width: 80vw;
+	 		max-width: 100vw;
 	 		flex-direction: column;
 	 		margin: 0 auto;
 	 		padding: 40px;
 	 		background-color: rgba(237, 147, 114, 1);
+	 		margin-left: 50px;
 	 	}
 	 	.section4_index p {
-	 		font-size: 0.7em;
+	 		font-size: 0.8em;
 	 		font-style: normal;
 	 		font-weight: 400;
 	 		color: white;
+	 		line-height: 1.1em;
 	 		
 	 	}
 	 	.section4_index h2 {
@@ -189,24 +195,100 @@ a:active {
 	 	}
 	 	.section5_index {
 	 		display: flex;
-	 		max-width: 80vw;
+	 		max-width: 100vw;
 	 		flex-direction: column;
 	 		margin: 0 auto;
-	 		padding: 40px;
-	 		background-color: rgba(237, 147, 114, 1);
+	 		padding: 30px;
+	 		background-color: rgba(237, 198, 66,1);
+	 		margin-top: 20px;
+	 		margin-right: 25px;
+	 		padding-left: 70px;
 	 	}
 	 	.section5_index p {
-	 		font-size: 0.7em;
+	 		font-size: 0.8em;
 	 		font-style: normal;
 	 		font-weight: 400;
-	 		color: white;
+	 		color: black;
+	 		line-height: 1.1em;
 	 		
 	 	}
 	 	.section5_index h2 {
 	 		font-size: 1em;
 	 		line-height: 0.9;
-	 		color: white;
+	 		color: black;
 	 	}
+	 	.footer_main {
+	 		display: flex;
+	 		flex-direction: column;
+	 		justify-content: space-between;
+	 		background-color: rgba(90, 186, 237,1);
+	 		max-width: 100vw;
+	 		color: white;
+	 		margin-top: 20px;
+	 	}
+	 	.navigation_footer {
+	 		max-width: 100%;
+	 		padding-left: 20px;
+	 		padding-right: 20px;
+	 	}
+	 	footer nav {
+	 		font-size: 1em;
+	 		color: white;
+
+	 	}
+	 	.section_link a {
+	 		font-style: italic;
+	 		font-weight: 600;
+	 		font-size: 1.2em;
+	 		color: white;
+	 		text-decoration: underline;
+	 	}
+	 	#energetica_index a {
+	 		color: black;
+	 	}
+	 	.section_6 {
+	 		background-image: url(img/colored/small/robo-wunderkind-hLvQ4-QEBAE-unsplash.jpg);
+	 		background-repeat: no-repeat;
+	 		background-size: 70vw;
+	 		margin-left: 40px;
+	 	}
+	 	.section_6 h2{
+	 		max-width: 100vw;
+	 		margin-left: 10px;
+	 		font-size: 2em;
+	 		font-weight: 800;
+	 		font-style: italic;
+	 		color:black;
+	 		margin-top: 60px;
+	 		margin-bottom: 60px;
+	 		padding-bottom: 90px;
+	 	}
+	 	.future_p_1 {
+	 		font-size: 0.8em;
+	 		padding-left:30px;
+	 		padding-right: 20px;
+	 		margin-top: 70px;
+	 		margin-bottom: 50px;
+	 	}
+	 	.future_p_2 {
+	 		font-size: 0.8em;
+	 		padding-left:30px;
+	 		padding-right: 20px;
+	 		margin-top: 10px;
+	 		margin-bottom: 20px;
+	 	}
+	 	#future_link a {
+	 		color: black;
+	 		font-size: 1em;
+	 		padding-left: 30px;
+	 	}
+	 	/*Exibitions.html*/
+
+	 	.section1_exibitions {
+	 		background-color: blue;
+	 		margin-top: 100px;
+	 	}
+
 }
 
 /*Tablet*/
